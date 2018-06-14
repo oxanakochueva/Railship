@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+section {
+  width: 100vw;
+  height: 800px;
+  overflow: hidden;
+}
+
+.page-one {
+height: 1000px;
+}
+
+.container{
+  position: relative;
+  overflow: hidden;
+}
+
+.logo {
+width: 70vw;
+height: 50vh;
+background-image: url(../images/logo.svg);
+background-size: contain;
+background-repeat: no-repeat;
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+
+.logotype {
+  position: relative;
+}
+
+.man {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 25vw;
+  height: 50vh;
+}
+
+.man.changePosition {
+  transition-timing-function: ease-in;
+  transition: transform .3s ease;
+}
+
+.man.orange.changePosition {
+  right: 10vw;
+  display: block;
+}
+
+.man.blue.changePosition {
+  left: 30vw;
+  display: block;
+}
+
+.orange {
+  background-image: url(../images/oranges.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  right: -100vw;
+  display: none;
+}
+
+.blue {
+  background-image: url(../images/blue.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  left: -100vw;
+  display: none;
+}
+
+
+
+.page-two .text {
+  position: relative;
+  left: 50%;
+}
+
+h1 {
+  width: 480px;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 78px;
+}
+
+p {
+  width: 480px;
+  height: 128px;
+  font-size: 25px;
+}
+
+.first {
+  width: 615px;
+  height: 425px;
+  background-image: url(../images/bore.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 70px;
+}
