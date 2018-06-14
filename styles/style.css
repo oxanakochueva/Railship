@@ -102,3 +102,87 @@ p {
   position: relative;
   left: 70px;
 }
+
+
+
+
+
+
+
+
+.page-five {
+  width: 100%;
+  height: 1024px;
+  position: relative;
+}
+
+.page-fiveText {
+  position: absolute;
+  right: 180px;
+  top: 280px;
+
+}
+
+.image-six {
+  height: 828px;
+  width: 602px;
+  background-image: url(../images/Group_10.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 83px;
+  top: 58px;
+}
+
+
+.page-six {
+  width: 100%;
+  height: 1024px;
+  position: relative;
+}
+
+.page-sixText {
+  position: absolute;
+  width: 480px;
+  height: 168px;
+  top: 229px;
+  left: 238px;
+}
+
+.image-last {
+  height: 608px;
+  width: 358px;
+  background-image: url(../images/Group_11.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 168px;
+  top: 252px;
+}
+
+.button {
+  width: 265px;
+  height: 39px;
+  top: 527px;
+  left: 238px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.google {
+  width: 107px;
+  height: 37px;
+  background-image: url(../images/Page_5.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.apple {
+  width: 107px;
+  height: 37px;
+  background-image: url(../images/Page_4-1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
