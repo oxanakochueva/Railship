@@ -6,7 +6,7 @@ $logo = $('.logo')
 
 $(window).on('scroll', function(){
   console.log(window.scrollY);
-  if(window.scrollY > 50) {
+  if(window.scrollY > 100) {
   	if(!$orange.hasClass('changePosition')) {
   		$orange.show();
     	setTimeout(function(){$orange.toggleClass('changePosition');},0);
@@ -15,7 +15,7 @@ $(window).on('scroll', function(){
   		$blue.show();
  			setTimeout(function(){$blue.toggleClass('changePosition');},0);
   	}
-  } else if(window.scrollY <= 50) {
+  } else if(window.scrollY <= 100) {
   	if($orange.hasClass('changePosition')) {
   		$orange.hide();
   		$orange.removeClass('changePosition');
