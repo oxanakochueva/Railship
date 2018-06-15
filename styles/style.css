@@ -42,12 +42,13 @@ transform: translate(-50%,-50%);
 }
 
 .man.changePosition {
-  transition: transform 3s ease;
+  transition: transform 10s ease;
 }
 
 .man.orange.changePosition {
   right: 5vw;
   display: block;
+  transform: translate3d(100px; 0; 0);
 }
 
 .man.blue.changePosition {
@@ -238,11 +239,22 @@ p {
   background-repeat: no-repeat;
 }
 
+.google:hover {
+  cursor: pointer;
+  opacity: .8;
+  transition: .3 ease;
+}
+
 .apple {
   width: 107px;
   height: 37px;
   background-image: url(../images/Page_4-1.png);
   background-size: contain;
   background-repeat: no-repeat;
->>>>>>> 3c80fc7e748da01d2f111018d3d8049a895f0f2b
+}
+
+.apple:hover {
+  cursor: pointer;
+  opacity: .8;
+  transition: .3 ease;
 }
