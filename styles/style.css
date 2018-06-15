@@ -2,10 +2,11 @@
   box-sizing: border-box;
 }
 
-section {
-  width: 100vw;
-  height: 800px;
-  overflow: hidden;
+.landing {
+  margin: 0 auto;
+  width: 1440px;
+  background-color: #f3f2f2;
+
 }
 
 .page-one {
@@ -73,9 +74,7 @@ transform: translate(-50%,-50%);
   display: none;
 }
 
-
-
-.page-two .text {
+.text {
   position: relative;
   left: 50%;
 }
@@ -101,4 +100,65 @@ p {
   background-repeat: no-repeat;
   position: relative;
   left: 70px;
+}
+
+.texttwo {
+  position: relative;
+  top: 360px;
+  left: 10%;
+}
+
+.image.second {
+  width: 1230px;
+  height: 850px;
+  background-image: url(../images/Group_9.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 50%;
+}
+
+.imageflow {
+  display: flex;
+  justify-content: space-around;
+}
+
+.element.one,.element.two,.element.third {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.image.third {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  background-image: url(../images/Page_1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+.image.four {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  background-image: url(../images/Page_2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+.image.five {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  background-image: url(../images/Page_3.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+.titleflow.h1 {
+  width: 2000px;
 }

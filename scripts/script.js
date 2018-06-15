@@ -5,23 +5,30 @@ $blue = $('.blue'),
 $logo = $('.logo')
 
 $(window).on('scroll', function(){
-
   console.log(window.scrollY);
-
-  if ((window.scrollY > 20) && !$orange.hasClass('changePosition')) {
-    $orange.toggleClass('changePosition');
-  } else if((window.scrollY <= 20) && $orange.hasClass('changePosition')) {
-  $orange.removeClass('changePosition');
-}
-if ((window.scrollY > 20) && !$blue.hasClass('changePosition')) {
-  $blue.toggleClass('changePosition');
-} else if((window.scrollY <= 20) && $blue.hasClass('changePosition')) {
-$blue.removeClass('changePosition');
-}
-if ((window.scrollY > 400)) {
-  $logo.addClass('logotype');
-} else if((window.scrollY <= 400)) {
-  $logo.removeClass('logotype')
-}
+  if(window.scrollY > 50) {
+  	if(!$orange.hasClass('changePosition')) {
+  		$orange.show();
+    	setTimeout(function(){$orange.toggleClass('changePosition');},0);
+  	}
+  	if(!$blue.hasClass('changePosition')) {
+  		$blue.show();
+ 			setTimeout(function(){$blue.toggleClass('changePosition');},0);
+  	}
+  } else if(window.scrollY <= 50) {
+  	if($orange.hasClass('changePosition')) {
+  		$orange.hide();
+  		$orange.removeClass('changePosition');
+  	}
+  	if($blue.hasClass('changePosition')) {
+  		$blue.hide();
+  		$blue.removeClass('changePosition');
+  	}
+  }
+  if ((window.scrollY > 400)) {
+	  $logo.addClass('logotype');
+	} else if((window.scrollY <= 400)) {
+	  $logo.removeClass('logotype')
+	}
 });
 });
