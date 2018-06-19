@@ -2,13 +2,18 @@
   box-sizing: border-box;
 }
 
+
 .landing {
   margin: 0 auto;
   width: 1440px;
+  overflow: hidden;
+  margin: 0 auto;
 }
 
 .page-one {
-height: 1000px;
+    position: relative;
+height: 800px;
+overflow: hidden;
 }
 
 .container{
@@ -29,47 +34,47 @@ transform: translate(-50%,-50%);
 }
 
 .logotype {
-  position: relative;
+  position: static;
 }
 
 .man {
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
   width: 25vw;
   height: 50vh;
 }
 
-.man.changePosition {
-  transition: transform 10s ease;
+.man .orange {
+    right: 0px;
 }
 
-.man.orange.changePosition {
-  right: 5vw;
-  display: block;
-  transform: translate3d(100px; 0; 0);
+.changePosition-orange {
+transform: translateX(-100 +'%')
 }
 
-.man.blue.changePosition {
-  left: 20vw;
-  display: block;
+.changePosition-blue {
+transform: translateX(-100 +'%')
 }
 
 .orange {
   background-image: url(../images/oranges.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  right: -100vw;
-  display: none;
+  left: 100vw;
+
+/*   right: -50%;
+transform: translateX(50%); */
+  /* transform: translateX(-50%); */
 }
 
 .blue {
   background-image: url(../images/blue.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  left: -100vw;
-  display: none;
+  left: -40vw;
+ /*  transform: translateX(50%); */
+  /* left: -100vw; */
+  /* display: none; */
 }
 
 .text {
