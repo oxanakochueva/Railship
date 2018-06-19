@@ -2,79 +2,73 @@
   box-sizing: border-box;
 }
 
+@font-face {
+    font-family: oficina-bold;
+    src: url(../fonts/OSN65.otf);
+}
+
+@font-face {
+    font-family: oficina-regular;
+    src: url(../fonts/OSN45.otf);
+}
 
 .landing {
   margin: 0 auto;
   width: 1440px;
   overflow: hidden;
   margin: 0 auto;
-
-}
-
-.page-one {
-    position: relative;
-height: 800px;
-overflow: hidden;
-}
-
-.container{
   position: relative;
-  overflow: hidden;
+
 }
+
+
+
 
 .logo {
-width: 70vw;
+width: 60vw;
 height: 50vh;
 background-image: url(../images/logo.svg);
 background-size: contain;
 background-repeat: no-repeat;
-position: fixed;
-top: 50%;
-left: 50%;
-transform: translate(-50%,-50%);
+position: relative;
+top: 50vh;
+left: 10vw;
+/* transform: translate(-50%,-50%); */
 }
 
-.logotype {
-  position: relative;
+/* .logotype {
+    position: relative;
+  transform: translateY(-50%);
+} */
+
+.mans {
+    position: absolute;
+    top: 250vh;
+    z-index: 2;
 }
 
 .man {
   position: absolute;
-  top: 50%;
+/*   top: 50%; */
   width: 25vw;
   height: 50vh;
 }
 
-.man .orange {
-    right: 0px;
-}
-
-.changePosition-orange {
-transform: translateX(-100 +'%')
-}
-
-.changePosition-blue {
-transform: translateX(-100 +'%')
-}
 
 .orange {
   background-image: url(../images/oranges.svg);
   background-size: contain;
   background-repeat: no-repeat;
   left: 100vw;
-  right: -50%;
-  transform: translateX(50%); */
-  transform: translateX(-50%);
+  transform: translateX(50%);
 }
 
 .blue {
   background-image: url(../images/blue.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  left: -40vw;
+  left: -50vw;
   transform: translateX(50%);
-  left: -100vw;
-  display: none;
 }
 
 .text {
@@ -90,13 +84,17 @@ h1 {
   /* width: 480px; */
   font-size: 50px;
   font-weight: bold;
-  line-height: 78px;
+  line-height: 68px;
+  margin-bottom: 10px;
+  font-family: oficina-bold;
 }
 
 p {
   /* width: 480px;
   height: 128px; */
   font-size: 25px;
+  line-height: 30px;
+font-family: oficina-regular;
 }
 
 /* .first {
@@ -180,14 +178,16 @@ p {
 
 
 .page-one {
-  width: 1440px;
-  height: 2048px;
+    position: relative;
+    overflow: hidden;
+    width: 1440px;
+    height: 250vh;
 }
 
 
 .page-two, .page-three, .page-four, .page-five {
   width: 1440px;
-  height: 1024px;
+  height: 100vh;
   position: relative;
 }
 
@@ -226,7 +226,7 @@ p {
 .pic-2 {
   width: 753px;
   height: 951px;
-  background-image: url(../images/Group_9.png);
+  background-image: url(../images/Group_12.png);
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
@@ -365,12 +365,12 @@ h2 {
 .button {
   width: 265px;
   height: 39px;
-  top: 527px;
-  left: 238px;
+  top: 50px;
   position: relative;
   display: flex;
   justify-content: space-between;
-  outline-style: none;
+  border: none;
+  box-shadow: none;
 }
 
 
@@ -380,6 +380,7 @@ h2 {
   background-image: url(../images/Page_5.png);
   background-size: contain;
   background-repeat: no-repeat;
+  border: none;
 }
 
 .google:hover {
@@ -394,6 +395,7 @@ h2 {
   background-image: url(../images/Page_4-1.png);
   background-size: contain;
   background-repeat: no-repeat;
+   border: none;
 }
 
 .apple:hover {

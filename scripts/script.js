@@ -5,17 +5,13 @@ $(document).ready(function(){
 $(window).on('scroll',function(){
 	console.log(window.scrollY);
 		var bluePosition = Math.round($(window).scrollTop() / $(window).height() * 100);
-    $('.blue').css('transform','translateX('+(bluePosition-50)+'%)');
+    $('.blue').css('transform','translateX('+(bluePosition+0)+'%)');
     var orangePosition = Math.round($(window).scrollTop() / $(window).height() * -100);
-	$('.orange').css('transform','translateX('+(orangePosition-50)+'%)');
+	$('.orange').css('transform','translateX('+(orangePosition+0)+'%)');
+	var logoPosition = Math.round($(window).scrollTop() / $(window).height() * 110);
+	$('.logo').css('transform','translateY('+(logoPosition-100)+'%)');
 
-	var logo = $('.logo');
 
-	if ((window.scrollY > 1800) && !$('.logo').hasClass('logotype')) {
-	  $('.logo').addClass('logotype');
-  } else if((window.scrollY <= 1800) && $('.logo').hasClass('logotype')) {
-	  $('.logo').removeClass('logotype');
-	}
 
 });
 
