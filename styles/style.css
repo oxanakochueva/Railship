@@ -8,6 +8,7 @@
   width: 1440px;
   overflow: hidden;
   margin: 0 auto;
+
 }
 
 .page-one {
@@ -61,10 +62,9 @@ transform: translateX(-100 +'%')
   background-size: contain;
   background-repeat: no-repeat;
   left: 100vw;
-
-/*   right: -50%;
-transform: translateX(50%); */
-  /* transform: translateX(-50%); */
+  right: -50%;
+  transform: translateX(50%); */
+  transform: translateX(-50%);
 }
 
 .blue {
@@ -72,9 +72,9 @@ transform: translateX(50%); */
   background-size: contain;
   background-repeat: no-repeat;
   left: -40vw;
- /*  transform: translateX(50%); */
-  /* left: -100vw; */
-  /* display: none; */
+  transform: translateX(50%);
+  left: -100vw;
+  display: none;
 }
 
 .text {
@@ -82,20 +82,24 @@ transform: translateX(50%); */
   left: 50%;
 }
 
+
+
+
+
 h1 {
-  width: 480px;
+  /* width: 480px; */
   font-size: 50px;
   font-weight: bold;
   line-height: 78px;
 }
 
 p {
-  width: 480px;
-  height: 128px;
+  /* width: 480px;
+  height: 128px; */
   font-size: 25px;
 }
 
-.first {
+/* .first {
   width: 615px;
   height: 425px;
   background-image: url(../images/bore.svg);
@@ -103,10 +107,10 @@ p {
   background-repeat: no-repeat;
   position: relative;
   left: 70px;
-}
+} */
 
 /* <<<<<<< HEAD */
-.text-two {
+/* .text-two {
   position: relative;
   left: 10%;
 }
@@ -160,7 +164,7 @@ p {
   background-size: contain;
   background-repeat: no-repeat;
 
-}
+} */
 
 /* .titleflow.h1 {
   width: 2000px;
@@ -172,43 +176,177 @@ p {
 
 
 
-/* .page-five {
-  width: 100%;
-  height: 1024px;
-  position: relative;
-} */
 
-.text-six {
-  position: relative;
-  /* position: absolute; */
-  right: 180px;
-  top: 280px;
+
+
+.page-one {
+  width: 1440px;
+  height: 2048px;
 }
 
-.image-six {
+
+.page-two, .page-three, .page-four, .page-five {
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+
+
+.pic-1 {
+  width: 614px;
+  height: 419px;
+  background-image: url(../images/bore.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 71px;
+  top: 432px;
+}
+
+.text-1 {
+  width: 480px;
+  height: 340px;
+  position: absolute;
+  right: 240px;
+  top: 284px;
+
+}
+
+
+
+.text-2 {
+  width: 480px;
+  height: 163px;
+  position: absolute;
+  left: 109px;
+  top: 407px;
+}
+
+.pic-2 {
+  width: 753px;
+  height: 951px;
+  background-image: url(../images/Group_9.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 46px;
+  top: 73px;
+}
+
+
+
+.page-four {
+  display: flex;
+  justify-content: center;
+}
+
+
+.page-four h1 {
+  text-align: center;
+}
+
+.text-3 {
+  width: 898px;
+  height: 116px;
+  position: absolute;
+  top: 118px;
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  width: 1118px;
+  height: 394px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 411px;
+}
+
+.search, .choice, .meeting {
+  width: 312px;
+  height: 389px;
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  text-align: center;
+  position: absolute;
+  top: 204px;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 78px;
+
+}
+
+.box p {
+  text-align: center;
+  position: absolute;
+  top: 285px;
+  width: 312px;
+  height: 128px;
+}
+
+.search-pic {
+  width: 173px;
+  height: 167px;
+  background-image: url(../images/Page_1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.choice-pic {
+  width: 196px;
+  height: 167px;
+  background-image: url(../images/Page_2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.meeting-pic {
+  width: 211px;
+  height: 167px;
+  background-image: url(../images/Page_3.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.text-4 {
+  width: 546px;
+  height: 256px;
+  position: absolute;
+  right: 180px;
+  top: 300px;
+}
+
+.pic-3 {
   height: 828px;
   width: 602px;
   background-image: url(../images/Group_10.png);
   background-size: contain;
   background-repeat: no-repeat;
-  position: relative;
-  /* position: absolute; */
+  position: absolute;
   left: 83px;
-/*   top: 58px; */
+  top: 58px;
 }
 
 
-/* .page-six {
+.page-six {
   width: 100%;
   height: 1024px;
   position: relative;
-} */
+}
 
 .text-last {
   position: absolute;
   width: 480px;
   height: 168px;
-  /* top: 229px; */
+  top: 229px;
   left: 238px;
 }
 
@@ -219,16 +357,16 @@ p {
   background-size: contain;
   background-repeat: no-repeat;
   position: relative;
-  /* position: absolute; */
+  position: absolute;
   left: 60%;
-  /* top: 252px; */
+  top: 252px;
 }
 
 .button {
   width: 265px;
   height: 39px;
-  /* top: 527px; */
-  /* left: 238px; */
+  top: 527px;
+  left: 238px;
   position: relative;
   display: flex;
   justify-content: space-between;
