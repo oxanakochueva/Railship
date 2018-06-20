@@ -5,11 +5,13 @@ $(document).ready(function(){
 $(window).on('scroll',function(){
 	console.log(window.scrollY);
 		var bluePosition = Math.round($(window).scrollTop() / $(window).height() * 100);
-    $('.blue').css('transform','translateX('+(bluePosition+0)+'%)');
+    $('.blue').css('transform','translateX('+(bluePosition+100)+'%)');
     var orangePosition = Math.round($(window).scrollTop() / $(window).height() * -100);
-	$('.orange').css('transform','translateX('+(orangePosition+0)+'%)');
-	var logoPosition = Math.round($(window).scrollTop() / $(window).height() * 110);
-	$('.logo').css('transform','translateY('+(logoPosition-100)+'%)');
+	$('.orange').css('transform','translateX('+(orangePosition+100)+'%)');
+	// if ($(window).scrollTop() > 200) {
+		var logoPosition = Math.round($(window).scrollTop() / $(window).height() * 100);
+	    $('.logo').css('transform','translateY('+(logoPosition-100)+'%)');
+	// }
 
 
 
