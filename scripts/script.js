@@ -1,6 +1,15 @@
 $(document).ready(function(){
 
-
+	$('a').each(function() {
+	  $(this).on('click', function(e) {
+	    e.preventDefault();
+	    var scrollTo = $(this).attr('href');
+	    var whitespace = scrollTo == '#s1' ? 70 : 30
+	    $('html,body').animate({
+	      scrollTop: $(scrollTo).offset().top - whitespace
+	    }, 1000);
+	  });
+	});
 
 $(window).on('scroll',function(){
 	console.log(window.scrollY);
@@ -12,9 +21,6 @@ $(window).on('scroll',function(){
 		var logoPosition = Math.round($(window).scrollTop() / $(window).height() * 100);
 	    $('.logo').css('transform','translateY('+(logoPosition-100)+'%)');
 	// }
-
-
-
 });
 
 // $(window).on('scroll',function () {
