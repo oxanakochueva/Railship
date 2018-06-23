@@ -33,7 +33,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 p.open-text {
@@ -104,11 +103,7 @@ a {
 
 }
 
-.logo {
-position: relative;
-top: 50vh;
-left: 10vw;
-}
+.logo {position: relative;top: 50vh;left: 10vw;}
 
 /* .logotype {
     position: relative;

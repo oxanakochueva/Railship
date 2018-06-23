@@ -1,0 +1,105 @@
+  @media screen and (max-width: 768px) {
+
+  body {
+    width: 100vw;
+  }
+
+  .landing {
+    width: 100vw;
+  }
+
+  .page-two, .page-three, .page-four, .page-five, .no {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .logos {
+    /* width: 400px; */
+    height: 100px;
+    top: 4vh;
+    left: 15vw;
+  }
+
+  .logo {
+
+  }
+
+  .open-text {
+    left: 10vw;
+    width: 70%;
+  }
+
+  h1 {
+    font-size: 33px;
+    line-height: 58px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .text-1, .text-2 {
+    width: 280px;
+    left: 10vw;
+}
+
+
+.pic-1 {
+  width: 380px;
+  height: 207px;
+  left: 50px;
+  top: 560px;
+}
+
+
+.text-2 {
+  width: 340px;
+  left: 45px;
+  top: 250px;
+}
+
+
+.pic-2 {
+  width: 450px;
+  height: 371px;
+  left: 45px;
+  top: 500px;
+}
+
+.text-3, .text-4, .text-last, .open-text {
+  top: 200px;
+  width: 370px;
+  left: 60px;
+}
+
+
+.pic-3 {
+  width: 450px;
+  height: 371px;
+  left: 55px;
+  top: 460px;
+}
+
+.image-last {
+  top: 530px;
+  width: 400px;
+  height: 371px;
+  left: 10vw;
+}
+
+.open-text.action {
+  flex-direction: column;
+  /* justify-content: space-between;
+  position: relative; */
+  top: 9vh;
+  left: 1vw;
+  background-color: yellow;
+  justify-content:  start;
+}
+
+.open-text.more {
+  margin-bottom: 10px;
+  right: 90%;
+}
+
+}
