@@ -79,7 +79,7 @@
   width: 450px;
   height: 371px;
   left: 55px;
-  top: 460px;
+  top: 500px;
 }
 
 .image-last {
@@ -112,7 +112,7 @@
 
 .box {
  flex-direction: column;
- width: 500px;
+ width: 400px;
  height: 500px;
 }
 
