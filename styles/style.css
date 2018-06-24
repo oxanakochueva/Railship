@@ -36,7 +36,7 @@
 }
 
 p.open-text {
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
 }
 
 .open-text.action {
@@ -285,7 +285,6 @@ h2 {
   font-size: 50px;
   font-weight: bold;
   line-height: 78px;
-
 }
 
 .box p {
