@@ -271,7 +271,7 @@ font-family: oficina-regular;
 }
 
 .search, .choice, .meeting {
-  width: 312px;
+  width: 100VW;
   height: 389px;
   display: flex;
   justify-content: center;
