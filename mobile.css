@@ -1,0 +1,152 @@
+  @media screen and (max-width: 768px) {
+
+  body {
+    width: 100vw;
+  }
+
+  .landing {
+    width: 100vw;
+  }
+
+  .page-two, .page-three, .page-four, .page-five, .no {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .logos {
+    /* width: 400px; */
+    height: 100px;
+    top: 4vh;
+    /* left: 15vw; */
+  }
+
+.man {
+    width: 50vw;
+    height: 60vh;
+    bottom: -90vh;
+}
+
+  .open-text {
+    left: 10vw;
+    width: 70%;
+    margin-left: 20px;
+  }
+
+  h1 {
+    font-size: 33px;
+    line-height: 58px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .text-1, .text-4 {
+    width: 280px;
+    left: 10vw;
+}
+
+
+.pic-1 {
+  width: 380px;
+  height: 207px;
+  left: 50px;
+  top: 560px;
+}
+
+
+.text-2 {
+  width: 340px;
+  left: 45px;
+  top: 250px;
+  /* background-color: #ff4646; */
+}
+
+
+.pic-2 {
+  width: 450px;
+  height: 371px;
+  left: 45px;
+  top: 500px;
+}
+
+.text-3, .text-4, .text-last, .open-text {
+  top: 200px;
+  width: 270px;
+  left: 45px;
+}
+
+
+.pic-3 {
+  width: 450px;
+  height: 371px;
+  left: 55px;
+  top: 500px;
+}
+
+.image-last {
+  top: 530px;
+  width: 400px;
+  height: 371px;
+  left: 10vw;
+}
+
+.open-text.action {
+  flex-direction: column;
+  width: 100px;
+  left: 13%;
+  top: 9vh;
+  justify-content:  start;
+}
+
+.open-text.more {
+  margin-bottom: 10px;
+  right: 90%;
+}
+
+.text-3 h1 {
+  text-align: left;
+}
+
+/* .choice {
+  margin left: 20px;
+} */
+
+.box {
+    position: relative;
+display: flex;
+ flex-direction: column;
+ width: 100vw;
+ height: 250vh;
+ justify-content: space-around;
+ align-items: center;
+}
+
+/* .search-pic, .choice-pic, .meeting-pic {
+  width: 151px;
+  height: 120px;
+} */
+
+.page-four {
+    height: 250vh;
+    display: flex;
+     flex-direction: column;
+}
+
+
+/*
+.box p {
+  position: relative;
+  top: 2px;
+  width: 250px;
+  left: 170px;
+  text-align: left;
+}
+
+.box h2 {
+  position: relative;
+  top: 2px;
+  width: 100px;
+  left: 170px;
+  font-size: 33px;
+} */
